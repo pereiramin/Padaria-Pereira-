@@ -1,0 +1,60 @@
+*{ /* Configurações padrões de inicio de um projeto dentro do CSS*/
+margin: 0;
+padding: 0;
+vertical-align: baseline;
+list-style: none;
+font-family: Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+}
+
+header{
+    display: flex; /*Responsável por colocar os itens na mesma linha (lado a lado)*/
+    align-items: center; /*Alinhar os itens do nosso Header para o centro */
+    justify-content: space-evenly; /*Tradução: justificar-conteúdo:espaço iniformimente. Alinhar os itenss igualmente dentro da pagina*/
+    padding: 15px; /*Cuida do preenchimento*/
+    background-color: rgb(85,48,6); /*Cor de fundo do nosso cabeçalho/Header*/
+    overflow: hidden; 
+    line-height: 200px; /*Altura da linha*/
+    max-height: 200px; /*Altura máxima*/
+}
+
+header > h1 { /*Selecionamos aqui a cor da letra do nosso H1 pu seja, do nosso título*/
+  color: white; /*chamamos a propriedade color e definimos uma cor em questão*/
+}
+
+header > img { /*Nosso menu de navegação*/
+ width: 200px; /*Largura da nossa imagem*/
+ height: 200px; /*Tamanho da nossa imagem*/
+}
+
+ #menu-hearder { /*Mosso menu de navegação*/
+  display: flex; /*Responsável por colocar os itens na mesma linha (lado a lado)*/
+  align-items: center; /*Alinhar os itens do nosso Header para o centro*/
+ }
+
+ #list-menu {/*Nossa lista não ordenada, aqui mudaremos diretamente nossa lista*/
+ display:flex; /*Responsável por colocar os itens na mesma linha (lado a lado)*/
+ margin-right: 1rem; /*Marge, da direia. 1 REM equivale a 16px, ou seja podemos usa-lo para inserção do px*/
+}
+
+.item-menu-header { /*Nossas li que estão dentro do LIST MENU. (a) nossa tag de linha*/
+ margin-right: 25px; /*margem da direita*/
+}
+
+.item-menu-header > a:hover{/*Nossas li que estão dentro do LIST MENU. (a)nossa tag de linha */
+ color: yellow; /*Aqui atribuimos uma cor*/
+ transition:1s; /*É o tempo em que será exibido ao passar o cursar*/
+}
+
+.item-menu-header > a { /*Nossas li que estão dentro do LIST MENU. (a) nossa tag de link que é*/
+ color:white ; /*Cor das letras*/
+ text-decoration: none; /*Responsavel por tirar o sublinhado inferior que esteve vísivel*/
+ font-size: 12px; /*Tamanho da letra*/
+}
+
+#btn-header{ /*Nossa ID do botão login*/
+ display: flex; /*Responsavel por colocar os itens na mesma linha (lado a lado)*/
+}
+
+#btn-header > button {
+    
+}
