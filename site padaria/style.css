@@ -55,6 +55,34 @@ header > img { /*Nosso menu de navegação*/
  display: flex; /*Responsavel por colocar os itens na mesma linha (lado a lado)*/
 }
 
-#btn-header > button {
-    
+#btn-header > button { /*Aqui chamamos nosso ID e onde queremos fazer alterações, no caso o nosso*/
+   padding: 8px; /*cuida do preemchimento*/
+   background-color: transparent; /*aqui deixamos o fundo do botão transparente , ou seja sem o*/
+   border: none; /*Nome é usado para retirar algo, nesse caso a borda*/
 }
+
+#btn-header > button > a{ /*Estamos chamando aqui nossa TAG de link para alteração.*/
+   display: flex; /*Responsavel por colocar os itens na mesma limha (lado a lado)*/
+   align-items: center; /*Alinhar os itens para o centro*/
+}
+
+#btn-header > button > a > img{ /*Aqui estamos mexendo no ICON do botão */
+   width: 30px; /*Largura*/
+   height: 30px; /*Tamanho*/
+   margin-right: 2px; /*Margem da direita*/
+}
+
+#img-destaque { /*Aqui chamamos a ID que chamamos no HTML*/
+  padding: 260px; /*Cuida do preenchimento*/
+  background-image: url(imagens/padaria.webp);/*Usada para inserir imagens de fundo*/
+  background-position: center;/*Aqui posicionamos nossa imagem para o centro*/
+}
+
+.img-div { /*aqui chamamos nossa class para alteração*/
+  padding: 25px; /*cuida do preenchimento*/
+  background-image: url(imagens/img-div.jpg); /*usado para inserir imagens de fundo */
+  background-position: center; /*aqui posicionamos imagem para oo centro*/
+  background-size: auto; /*background-size: especifica o tamanho das imagens*/
+}
+
+ 
