@@ -85,4 +85,56 @@ header > img { /*Nosso menu de navegação*/
   background-size: auto; /*background-size: especifica o tamanho das imagens*/
 }
 
- 
+ main > section > h2 { /*Aqui estamos chamando nosso H2 para estilização*/
+   margin-top: 0px; /*Indica o espaço acima do elemento/superior*/
+   font-size: 36px; /*Tamanho da letra*/
+   text-align: center; /*Alinhando o texto para o centro*/
+   color: #000000;  /*cor da letra do nosso h2*/
+  }
+
+  #clients { /*Aqui chamamos nossa ID da section*/
+    background-color: white; /*Cor de fundo da nossa section*/
+    margin-top: 0; /*Indica o espaço acima do elemento / superior*/
+    padding: 50px;/*Cuida do preenchimento*/
+  }
+
+  .line { /*Aqui chamamos nossa class que esta dentro do nosso HR, que é utilizado como uma quebra de linha*/
+    margin: 0 auto;/*Definimos em 0 a margin e colocamos para auto*/
+    width: 20px; /*Largura*/
+  }
+
+  #clients-list { /*Aqui chamamos nossa ID*/
+    display: flex;/*Responsavel por colocar os itens na mesma linha (lado a lado)*/
+    align-items: center; /*Alinhar os itens para o centro*/
+    justify-content: space-evenly; /*Tradução:justificar-conteúdo: espaço uniformemente.Alinhar os itens igualmente dentro da página*/
+    margin-top: 30px; /*Indica o espaço acima do elemento/superior*/
+  }
+
+  .clients-item { /*aqui chamamos nossa class que esta dentro da nossa id*/
+    display: flex;/*Responsavel por colocar os itens na mesma linha*/
+    justify-content: center; /*Justifica-conteudo no centro*/
+    align-items: center;/*alinhar os itens para o centro*/
+    flex-direction: column; 
+  }
+
+  .clients-item > img { /*aqui chamamos nossa Tag IMG pra estilização*/
+    width: 84px; /*largura*/
+    height: 84px;/*Tamanho*/
+  }
+
+  .clients-item > h3{ /*aqui chamamos nosso h3 para estilizar*/
+    font-family: 'Dancing Script', cursive; /*fonte escolhida*/
+    font-size: 32px; /*tamanho da fonte*/
+    align-items: center; /*Alinhar os itens para o centro*/
+    margin-top: 10px; /*indica o espaço acima do elemento/superior*/
+  }
+
+  .clients-item > p {
+    font-family: 'Dancing Script', cursive; /*fonte escolhida*/
+    font-size: 26px; /*tamanho da fonte*/
+    margin-top: 10px; /*indica o espaço acima do elemento/superior*/
+    align-items: center; /*Alinhar os itens para o centro*/
+  }
+
+  
+  
