@@ -136,5 +136,34 @@ header > img { /*Nosso menu de navegação*/
     align-items: center; /*Alinhar os itens para o centro*/
   }
 
-  
-  
+ #featured-products {/*ID usada para a section dos nossos produtos*/
+  background: linear-gradient(180deg, #F4CEAF 8,33%, rgba(244,200,175,0) 100%);
+  padding: 30px; /*Preenchimento*/
+ }
+
+ .products { /*Aqui chamamos nossa class dos produtos para estilização*/
+  margin-top: 3em; /*Indica o espaço acima do elemento / superior*/
+  display: flex; 
+  align-items: center;
+  justify-content: space-evenly;
+ }
+
+ .img-product {
+  width: 300px;
+  height: 300px;
+  border-radius: 50px; /*estilo arrendodado das bordas*/
+ }
+
+ .title-products {
+  margin-top: 10px;
+  font-family: 'Ubuntu', 'sans-serif';
+  text-align: center;
+  font-size: 22px;
+ }
+
+ #featured-products > a {
+  text-decoration: none;
+  font-family: 'ubuntu' 'sans-serif';
+  font-size: 20px;
+  color: red;
+ }
