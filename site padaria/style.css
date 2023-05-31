@@ -167,3 +167,72 @@ header > img { /*Nosso menu de navegação*/
   font-size: 20px;
   color: red;
  }
+
+ #featured-products > a:hover {
+  text-decoration: underline;
+  font-size: 22px;
+  transition: 1s;
+ }
+
+ #sobre-nos{
+  background-image: url(imagens/fundo-sobre-nos.jpg);
+  background-repeat: no-repeat; /*Aqui colocamos a função para a imagem não ser repetida*/
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  padding: 120px;
+ }
+
+ #sobre-nos > h3 {
+  color: white;
+  font-size: 64px;
+  text-align: center;
+  font-family: 'Ubuntu', 'sans-serif';
+ }
+
+ #sobre-nos > p {
+  font-family: 'Ubuntu', 'sans-serif';
+  font-weight: 500;
+  color: white;
+  font-size: 22px;
+  margin-top: 2em;
+  text-align: left;
+ }
+
+ footer {
+  padding: 80px;
+  background-image: url(imagens/img-footer.jpg);
+  background-position: bottom;
+  background-repeat: no-repeat;
+ }
+
+ footer > ul {
+  display: flex;
+  justify-content: space-evenly;
+ }
+
+ footer > h2 {
+  color: black;
+  font-size: 40px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 1em;
+ }
+
+ .item-menu-footer {
+  display: flex;
+  align-items: center;
+  margin-top: 30px;
+ }
+
+ .item-menu-footer > img {
+  width: 34px;
+  height: 34px;
+ }
+
+ .item-menu-footer > p {
+  color: black;
+  font-size: 24px;
+  font-weight: bold;
+  margin-left: 10px;
+ }
