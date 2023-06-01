@@ -72,6 +72,12 @@ header > img { /*Nosso menu de navegação*/
    margin-right: 2px; /*Margem da direita*/
 }
 
+#btn-header > button > a {
+  color: white;
+  text-decoration: none;
+  font-weight: 400;
+}
+
 #img-destaque { /*Aqui chamamos a ID que chamamos no HTML*/
   padding: 260px; /*Cuida do preenchimento*/
   background-image: url(imagens/padaria.webp);/*Usada para inserir imagens de fundo*/
