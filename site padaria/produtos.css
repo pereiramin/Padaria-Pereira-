@@ -1,0 +1,155 @@
+*{
+   margin: 0;
+   padding: 0;
+   vertical-align: baseline;
+   list-style: none;
+   font-family: Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+}
+
+header{
+    display: flex; 
+    align-items: center; 
+    justify-content: space-evenly; 
+    padding: 15px; 
+    background-color: rgb(85,48,6); 
+    overflow: hidden; 
+    line-height: 200px; 
+    max-height: 200px; 
+}
+
+header > h1 { 
+  color: white; 
+}
+
+header > img { 
+ width: 200px; 
+ height: 200px; 
+}
+
+#menu-hearder { 
+  display: flex; 
+  align-items: center; 
+ }
+
+#list-menu {
+ display:flex; 
+ margin-right: 1rem; 
+}
+
+.item-menu-header { 
+    margin-right: 25px; 
+   }
+   
+.item-menu-header > a:hover{
+    color: yellow; 
+    transition:1s; 
+   }
+   
+.item-menu-header > a { 
+    color:white ; 
+    text-decoration: none; 
+    font-size: 12px; 
+   }
+   
+#btn-header{ 
+    display: flex; 
+   }
+   
+#btn-header > button { 
+      padding: 8px; 
+      background-color: transparent;
+      border: none; 
+   }
+   
+#btn-header > button > a{ 
+      display: flex; 
+      align-items: center; 
+   }
+   
+#btn-header > button > a > img{ 
+      width: 30px; 
+      height: 30px; 
+      margin-right: 2px; 
+   }
+   
+#btn-header > button > a {
+    color: white;
+    text-decoration: none;
+    font-weight: 400;
+  }
+
+#featured-products {
+    background: linear-gradient(180deg, #F4CEAF 8,33%, rgba(244,200,175,0) 100%);
+    padding: 30px;
+   }
+  
+.products { 
+    margin-top: 3em; 
+    display: flex; 
+    align-items: center;
+    justify-content: space-evenly;
+   }
+  
+.img-product {
+    width: 300px;
+    height: 300px;
+    border-radius: 50px; 
+   }
+  
+.title-products {
+    margin-top: 10px;
+    font-family: 'Ubuntu', 'sans-serif';
+    text-align: center;
+    font-size: 22px;
+   }
+  
+#featured-products > a {
+    text-decoration: none;
+    font-family: 'ubuntu' 'sans-serif';
+    font-size: 20px;
+    color: red;
+   }
+  
+#featured-products > a:hover {
+    text-decoration: underline;
+    font-size: 22px;
+    transition: 1s;
+   }
+  
+footer {
+    padding: 80px;
+    background-image: url(imagens/img-footer.jpg);
+    background-position: bottom;
+    background-repeat: no-repeat;
+   }
+  
+footer > ul {
+    display: flex;
+    justify-content: space-evenly;
+   }
+  
+footer > h2 {
+    color: black;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 1em;
+   }
+  
+.item-menu-footer {
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+   }
+  
+.item-menu-footer > img {
+    width: 34px;
+    height: 34px;
+   }
+  
+.item-menu-footer > p {
+    color: black;
+    font-size: 24px;
+    font-weight: bold;
+    margin-left: 10px;
+   }
